@@ -2,7 +2,8 @@
 title: Wang Bo's CV 
 description: Wang Bo's CV
 #favicon: /assets/img/avatar.JPG
-favicon: /assets/img/wangbo.jpg
+#favicon: /assets/img/wangbo.jpg
+favicon: /assets/img/test.jpg
 baseurl: https://wangbo121.github.io/test_cv/
 url: https://wangbo121.github.io/test_cv/
 rss_url: /pages/atom.xml
@@ -22,10 +23,18 @@ author:
   Tel:  'Tel: +86 180-0126-9309'
 #  title: Java Developer
   email: 'Email: wangbobit@163.com'
-  Affiliation: '&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Affiliation: Beijing Institute of Technology P. R. China'
-  #address: '---------------------------Address: 5 South Zhongguancun Street, Haidian District, Beijing, P. R. China'
-  address: '&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Address: 5 South Zhongguancun Street, Haidian District, Beijing, P. R. China'
+  #Affiliation: '&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Affiliation: Beijing Institute of Technology P. R. China'
+  #address: '&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Address: 5 South Zhongguancun Street, Haidian District, Beijing, P. R. China'
   city: Beijing,China
+  
+  
+  
+  Affiliation: 'Affiliation: Beijing Institute of Technology P. R. China'
+  #address: '---------------------------Address: 5 South Zhongguancun Street, Haidian District, Beijing, P. R. China'
+  address: 'Address: 5 South Zhongguancun Street, Haidian District, Beijing, P. R. China'
+  city: Beijing,China
+  
+  
   
 #  link: 
 #  weibo:
