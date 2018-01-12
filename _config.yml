@@ -1,0 +1,145 @@
+# Site settings
+title: Wang Bo's CV 
+description: Wang Bo's CV
+#favicon: /assets/img/avatar.JPG
+favicon: /assets/img/wangbo.jpg
+baseurl: https://wangbo121.github.io/test_cv/
+url: https://wangbo121.github.io/test_cv/
+rss_url: /pages/atom.xml
+#google_analytics: UA-63653234-1
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+# Author settings
+author:
+  first_name: 'Family name: Wang'
+  last_name: 'Given name: Bo'
+  Gender: 'Gender: Male'
+  Birth:  'Date of Birth: Jun.1992'
+  Tel:  'Tel: +86 180-0126-9309'
+#  title: Java Developer
+  email: 'Email: wangbobit@163.com'
+  Affiliation: '&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Affiliation: Beijing Institute of Technology P. R. China'
+  #address: '---------------------------Address: 5 South Zhongguancun Street, Haidian District, Beijing, P. R. China'
+  address: '&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; Address: 5 South Zhongguancun Street, Haidian District, Beijing, P. R. China'
+  city: Beijing,China
+  
+#  link: 
+#  weibo:
+#  github: 
+#  linkedin: 
+#  twitter: 
+#  gavatar: /resumecard/assets/img/wangbo.jpg
+#  stackoverflow:
+#  stackoverflow: 4582127
+
+  Research_Interests:
+    - interest1:
+      description: Guidance and control of unmanned vehicles including motion control of 6-DOF UAV and USV.
+    - interest2:
+      description: Consensus and formation control of unmanned aerial vehicles, unmanned surface vehicles and wireless communication.
+    - interest3:
+      description: Tracking control, event-triggered and distributed control of multi-agent systems.
+   
+   
+  educationHistory:
+    - education1:
+      organization: Beijing Institute of Technology
+      location: Beijing, China
+      degree: Bachelor of Engineering
+      major: Control Engineering
+      started: 2010
+      duration: (2010 - 2014)
+      description: Control Science and Engineering, Linear and Nonlinear System, Signals and Systems,Principle of Computer, etc.
+    - education2:
+      organization: Beijing Institute of Technology
+      location: Beijing, China
+      degree: Candidate for Ph.D.
+      major: Control Science and Engineering
+      started: 2014
+      duration: (2014 - Present)
+      description: Guidance and control of unmanned vehicles, Consensus and formation control, Distributed control, etc.
+
+      
+  projectsHistory:
+    - project1:
+      title: Fixed-Wing UAV System Research
+      description: Participated in UAV control system design. 
+      des: Achieved the guidance and attitude control of a fixed-wing UAV. 
+      desc: Designed a ground control station for communication between operator and the UAV. 
+      descr: Completed aeromagnetic detection task by employing the above fixed-wing UAV.
+
+    - project2:
+      title: Unmanned Semi-submersible Vehicle System Research
+#      description: 'Designed the path-following controller for an Unmanned Semi-submersible Vehicle. Tested the performance of the USV by conducted several experiments in lakes and Bohai sea. Developed the communication system which can achieve reliable communication between the autopilot and the ground station with the intelligent switching of Iridium, BeiDou and radio communication to ensure the reliability of the link at all times. Improved the power management unit that can provide sustained, stable and uninterrupted power supply for thrusters and computers onboard.'
+      description: Designed the path-following controller for an Unmanned Semi-submersible Vehicle.
+      des: Tested the performance of the USV by conducted several experiments in lakes and Bohai sea.
+      desc: Developed the communication system which can achieve reliable communication between the autopilot and the ground station with the intelligent switching of Iridium, BeiDou and radio communication to ensure the reliability of the link at all times.
+      descr: Improved the power management unit that can provide sustained, stable and uninterrupted power supply for thrusters and computers onboard.
+
+     
+  Published_Research:
+    - Published1:
+      description: Wang, B., & Fei, Q. (2016, July). LADRC with Genetic Algorithm based course tracking for autonomous surface vehicle. In Control Conference (CCC), 2016 35th Chinese (pp. 626-630). IEEE.
+    
+    - Published2:
+      description: Wang, B., Fei, Q., Huang, X. S., & Geng, Q. B. (2017, July). Design of control system for an unmanned semi-submersible vehicle. In Control & Automation (ICCA), 2017 13th IEEE International Conference on (pp. 805-810). IEEE.
+    - Published3:
+      description: Liang, J., Fei, Q., Wang, B., & Geng, Q. (2016, November). Tailsitter VTOL flying wing aircraft attitude control. In Chinese Association of Automation (YAC), Youth Academic Annual Conference of (pp. 439-443). IEEE.
+    - Published4:
+      description: Qing Fei, Bo Wang, Jianjian Liang, Qingbo Geng. Flight test and algorithm validation platform for quadcopter. CN107272749 A, 2017-10-20.
+      
+      
+  Honors_Achievements:
+    - Honors1:
+      description: First Class Prize of Entrepreneurship Scholarship of Ministry of Industry and Information Technology, awarded by Ministry of Industry and Information Technology, P.R. China, 2017.
+    - Honors2:
+      description: Third Class Prize of China's third "Internet Plus" innovation and entrepreneurship contest for college students, awarded by Beijing Municipal Commission of Education, 2017.
+    - Honors3:
+      description: First Class Ph.D. Scholarship, awarded by Beijing Institute of Technology, 2017.
+    - Honors4:
+      description: Two times Second Class Academic Scholarship, awarded by Beijing Institute of Technology, 2014-2016.
+    - Honors5:
+      description: Second Prize in Beijing Contest District in China Undergraduate Mathematical Contest in Modeling, awarded by Beijing Municipal Commission of Education, 2012.
+    - Honors6:
+      description: Five times Academic Scholarship during undergraduate studies, awarded by Beijing Institute of Technology, 2010-2014.
+      
+      
+  Summary_Abilities:
+    - Abilities1:
+      description: Be familiar with control theory and engineering.
+    - Abilities2:
+      description: Frequent user and proficient mastery of C/C++, python and other programming language.
+    - Abilities3:
+      description: A good manipulator for UAV and USV.
+    - Abilities4:
+      description: Have a good understanding of AMP and PX4 autopilot.
+  
+  
+#  workHistory:
+#    - work1:
+#      company: XXX Ltd
+#      location: Auckland, New Zealand
+#      title: Java Developer
+#      started: 2014
+#      duration: (2014 - Present)
+#     description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+#    - work2:
+#      company: XXX Ltd
+#      location: Shanghai, China
+#      title: Java Developer
+#      started: 2012
+#      duration: (2012 - 2014)
+#      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+#    - work3:
+#      company: XXX Ltd
+#      location: Shanghai, China
+#      title: Java Developer
+#      started: 2009
+#      duration: (2009 - 2012)
+#      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  
+

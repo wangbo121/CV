@@ -1,0 +1,23 @@
+<div class="header">
+    <div class="container-fluid">
+		<img src="{{ site.favicon | prepend: site.baseurl }}" title="Avatar" alt="My Avatar" width="150" height="150">
+        <div class="row-fluid">
+            <div class="col-sm-4">        
+                <h4>{{ site.author.first_name }}</h4>
+				<h4>{{ site.author.Gender }}</h4>
+                <h4>{{ site.author.Tel }}</h4>
+			</div>
+			<div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
+				<h4>{{ site.author.last_name }} </h4>
+				<h4>{{ site.author.Birth }} </h4>
+                <h4> {{ site.author.email }} </h4>
+            </div>
+		</div>
+		<div class="row-fluid">
+			<div class="col-sm-12">
+				<h4>{{ site.author.Affiliation }}</h4>
+                <h4>{{ site.author.address }}</h4>
+            </div>
+        </div>
+    </div>
+</div>
