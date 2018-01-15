@@ -109,10 +109,19 @@ layout: default
         </div>
         <div class="col-md-4">
             <div class="deviter"></div>
-			<img src="{{ site.sea1}}" title="Sea" alt="My Project Experiment">
-			<img src="{{ site.sea2}}" title="Sea" alt="My Project Experiment">
-			<img src="{{ site.sea3}}" title="Sea" alt="My Project Experiment">
-			<img src="{{ site.sea4}}" title="Sea" alt="My Project Experiment">
+			
+			<div class="container-fluid">
+				<img src="{{ site.sea1 | prepend: site.baseurl }}" title="Sea" alt="My Project Experiment">
+			</div>
+			<div class="container-fluid">
+				<img src="{{ site.sea2 | prepend: site.baseurl }}" title="Sea" alt="My Project Experiment">
+			</div>
+			<div class="container-fluid">
+				<img src="{{ site.sea3 | prepend: site.baseurl }}" title="Sea" alt="My Project Experiment">
+			</div>
+			<div class="container-fluid">
+				<img src="{{ site.sea4 | prepend: site.baseurl }}" title="Sea" alt="My Project Experiment">
+			</div>
 			
 			
             <h3 class="title with-icon"><span class="fa fa-location-arrow cat-title"></span> Location</h3>
