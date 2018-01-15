@@ -7,9 +7,13 @@ layout: default
             {% if site.author.Research_Interests %}
                 <h3 class="title">Research Interests</h3>
                     {% for work in site.author.Research_Interests %}
+					    <ul>
+						    <li>
                                     {% if work.description %}
                                         <h4>{{ work.description }}</h4>
                                     {% endif %}
+							</li>
+						</ul>
                     {% endfor %}
             {% endif %}	
 			
