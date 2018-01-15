@@ -59,17 +59,27 @@ author:
       organization: Beijing Institute of Technology
       location: Beijing, China
       degree: Bachelor of Engineering
-      major: Control Engineering
+      major: Automation
       started: 2010
       duration: (2010 - 2014)
       description: Control Science and Engineering, Linear and Nonlinear System, Signals and Systems,Principle of Computer, etc.
+      
     - education2:
       organization: Beijing Institute of Technology
       location: Beijing, China
-      degree: Candidate for Ph.D.
+      degree: M.S. (master-doctor combined Ph.D. program)
       major: Control Science and Engineering
       started: 2014
-      duration: (2014 - Present)
+      duration: (2014 - 2016)
+      description: Guidance and control of unmanned vehicles, Consensus and formation control, Distributed control, etc.
+      
+    - education3:
+      organization: Beijing Institute of Technology
+      location: Beijing, China
+      degree: Ph.D. (master-doctor combined Ph.D. program)
+      major: Control Science and Engineering
+      started: 2016
+      duration: (2016 - Present)
       description: Guidance and control of unmanned vehicles, Consensus and formation control, Distributed control, etc.
 
       
