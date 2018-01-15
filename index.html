@@ -8,11 +8,9 @@ layout: default
                 <h3 class="title">Research Interests</h3>
                     {% for work in site.author.Research_Interests %}
                         <li class="timeline-inverted">
-                                <div class="timeline-body">
                                     {% if work.description %}
                                         <h4>{{ work.description }}</h4>
                                     {% endif %}
-                                </div>
                         </li>
                     {% endfor %}
             {% endif %}	

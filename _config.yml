@@ -47,9 +47,9 @@ author:
 
   Research_Interests:
     - interest1:
-      description: Guidance and control of unmanned vehicles including motion control of 6-DOF UAV and USV.
+      description: Guidance and control of unmanned vehicles including motion control of UAV and USV.
     - interest2:
-      description: Consensus and formation control of unmanned aerial vehicles, unmanned surface vehicles and wireless communication.
+      description: Consensus and formation control of UAVs, USVs and wireless communication.
     - interest3:
       description: Tracking control, event-triggered and distributed control of multi-agent systems.
    
