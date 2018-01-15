@@ -6,19 +6,7 @@ layout: default
         <div class="col-md-8">
 		
 		
-            {% if site.author.Research_Interests %}
-                <h3 class="title">Research Interests</h3>
-				{% for work in site.author.Research_Interests %}
-					<ul>
-						<li>
-								{% if work.description %}
-									<h4>{{ work.description }}</h4>
-								{% endif %}
-						</li>
-					</ul>
-				{% endfor %}
-            {% endif %}	
-			
+            
 			
 			{% if site.author.educationHistory %}
                 <h3 class="title ">Education Background</h3>
@@ -32,33 +20,6 @@ layout: default
 					</ul>
 				{% endfor %}
             {% endif %}
-		
-		
-			{% if site.author.projectsHistory %}
-                <h3 class="title">Project Experience</h3>
-				{% for work in site.author.projectsHistory %}
-					{% if work.title %}
-					<ul>
-						<li><h4>{{ work.title }}</h4></li>
-					{% endif %}
-					</ul>
-					<ul>
-						{% if work.description %}
-							<h4>{{ work.description }}</h4>
-						{% endif %}
-						{% if work.des %}
-							<h4>{{ work.des }}</h4>
-						{% endif %}
-						{% if work.desc %}
-							<h4>{{ work.desc }}</h4>
-						{% endif %}
-						{% if work.descr %}
-							<h4>{{ work.descr }}</h4>
-						{% endif %}
-					</ul>
-				{% endfor %}
-            {% endif %}	
-			
 			
 			{% if site.author.Published_Research %}
                 <h3 class="title">Published Research</h3>
@@ -85,6 +46,50 @@ layout: default
 						</ul>
                     {% endfor %}
             {% endif %}	
+		
+		
+			{% if site.author.projectsHistory %}
+                <h3 class="title">Project Experience</h3>
+				{% for work in site.author.projectsHistory %}
+					{% if work.title %}
+					<ul>
+						<li><h4 class="title">{{ work.title }}</h4></li>
+					{% endif %}
+					</ul>
+					<ul>
+						{% if work.description %}
+							<h4>{{ work.description }}</h4>
+						{% endif %}
+						{% if work.des %}
+							<h4>{{ work.des }}</h4>
+						{% endif %}
+						{% if work.desc %}
+							<h4>{{ work.desc }}</h4>
+						{% endif %}
+						{% if work.descr %}
+							<h4>{{ work.descr }}</h4>
+						{% endif %}
+					</ul>
+				{% endfor %}
+            {% endif %}	
+			
+			{% if site.author.Research_Interests %}
+                <h3 class="title">Research Interests</h3>
+				{% for work in site.author.Research_Interests %}
+					<ul>
+						<li>
+								{% if work.description %}
+									<h4>{{ work.description }}</h4>
+								{% endif %}
+						</li>
+					</ul>
+				{% endfor %}
+            {% endif %}	
+			
+			
+			
+			
+			
 			
 			
 			{% if site.author.Summary_Abilities %}
