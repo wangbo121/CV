@@ -64,6 +64,15 @@ author:
       started: 2014
       duration: (2014 - Present)
       description: Guidance and control of unmanned vehicles, Consensus and formation control, Distributed control, etc.
+      
+    - education3:
+      organization: Beijing Institute of Technology
+      location: Beijing, China
+      degree: Candidate for Ph.D.
+      major: Control Science and Engineering
+      started: 2014
+      duration: (2014 - Present)
+      description: Guidance and control of unmanned vehicles, Consensus and formation control, Distributed control, etc.
 
       
   projectsHistory:
