@@ -39,21 +39,21 @@ layout: default
 				{% for work in site.author.projectsHistory %}
 					{% if work.title %}
 					<ul>
-						<h4>{{ work.title }}</h4>
+						<li><h4>{{ work.title }}</h4></li>
 					{% endif %}
 					</ul>
 					<ul>
 						{% if work.description %}
-							<li><h5>{{ work.description }}</h5></li>
+							<h4>{{ work.description }}</h4>
 						{% endif %}
 						{% if work.des %}
-							<li><h5>{{ work.des }}</h5></li>
+							<h4>{{ work.des }}</h4>
 						{% endif %}
 						{% if work.desc %}
-							<li><h5>{{ work.desc }}</h5></li>
+							<h4>{{ work.desc }}</h4>
 						{% endif %}
 						{% if work.descr %}
-							<li><h5>{{ work.descr }}</h5></li>
+							<h4>{{ work.descr }}</h4>
 						{% endif %}
 					</ul>
 				{% endfor %}
