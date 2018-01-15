@@ -3,9 +3,9 @@ title: Wang Bo's CV
 description: Wang Bo's CV
 #favicon: /assets/img/avatar.JPG
 #favicon: /assets/img/wangbo.jpg
-favicon: /assets/img/test.jpg
-baseurl: https://wangbo121.github.io/test_cv/
-url: https://wangbo121.github.io/test_cv/
+favicon: /assets/img/wangbo.jpg
+baseurl: https://wangbo121.github.io/CV/
+url: https://wangbo121.github.io/CV/
 rss_url: /pages/atom.xml
 #google_analytics: UA-63653234-1
 
@@ -135,7 +135,7 @@ author:
     - Abilities3:
       description: A good manipulator for UAV and USV.
     - Abilities4:
-      description: Have a good understanding of AMP and PX4 autopilot.
+      description: Have a good understanding of APM and PX4 autopilot.
   
   
 #  workHistory:
