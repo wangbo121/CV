@@ -34,23 +34,23 @@ layout: default
                 <h3 class="title">Project Experience</h3>
                     {% for work in site.author.projectsHistory %}
 						{% if work.title %}
-							<h4>{{ work.title }}</h4>
-						{% endif %}
 						<ul>
-							<li>    
-                                    {% if work.description %}
-                                        <h5>{{ work.description }}</h5>
-                                    {% endif %}
-									{% if work.des %}
-                                        <h5>{{ work.des }}</h5>
-                                    {% endif %}
-									{% if work.desc %}
-                                        <h5>{{ work.desc }}</h5>
-                                    {% endif %}
-									{% if work.descr %}
-                                        <h5>{{ work.descr }}</h5>
-                                    {% endif %}
-							</li>
+							<li><h4>{{ work.title }}</h4></li>
+						{% endif %}
+						</ul>
+						<ul>
+							{% if work.description %}
+								<li><h5>{{ work.description }}</h5></li>
+							{% endif %}
+							{% if work.des %}
+								<li><h5>{{ work.des }}</h5></li>
+							{% endif %}
+							{% if work.desc %}
+								<li><h5>{{ work.desc }}</h5></li>
+							{% endif %}
+							{% if work.descr %}
+								<li><h5>{{ work.descr }}</h5></li>
+							{% endif %}
 						</ul>
                     {% endfor %}
             {% endif %}	
@@ -59,7 +59,7 @@ layout: default
 			
 			
 			{% if site.author.Published_Research %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Published Research</h3>
+                <h3 class="title">Published Research</h3>
                 <ul class="timeline">
                     {% for work in site.author.Published_Research %}
                         <li class="timeline-inverted">
