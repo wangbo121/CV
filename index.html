@@ -29,26 +29,15 @@ layout: default
 						</ul>
                     {% endfor %}
             {% endif %}
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
+		
 			{% if site.author.projectsHistory %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Project Experience</h3>
-                <ul class="timeline">
+                <h3 class="title">Project Experience</h3>
                     {% for work in site.author.projectsHistory %}
-                        <li class="timeline-inverted">
-                                <div class="timeline-body">
-								    {% if work.title %}
-                                        <h4>{{ work.title }}</h4>
-                                    {% endif %}
+						{% if work.title %}
+							<h4>{{ work.title }}</h4>
+						{% endif %}
+						<ul>
+							<li>    
                                     {% if work.description %}
                                         <h5>{{ work.description }}</h5>
                                     {% endif %}
@@ -61,10 +50,9 @@ layout: default
 									{% if work.descr %}
                                         <h5>{{ work.descr }}</h5>
                                     {% endif %}
-                                </div>
-                        </li>
+							</li>
+						</ul>
                     {% endfor %}
-                </ul>
             {% endif %}	
 			
 			
