@@ -9,6 +9,11 @@ url: https://wangbo121.github.io/CV/
 rss_url: /pages/atom.xml
 #google_analytics: UA-63653234-1
 
+sea1: /assets/img/sea1.jpg
+sea2: /assets/img/sea2.jpg
+sea3: /assets/img/sea3.jpg
+sea4: /assets/img/sea4.jpg
+
 # Build settings
 markdown: kramdown
 
@@ -71,7 +76,7 @@ author:
       major: Control Science and Engineering
       started: 2014
       duration: (2014 - 2016)
-      description: M.S., &#160 School of Automation, &#160 Beijing Institute of Technology, &#160 P. R. China, &#160 2014.
+      description: M.S., &#160 &#160 School of Automation, &#160 Beijing Institute of Technology, &#160 P. R. China, &#160 2014.
       
     - education3:
       organization: Beijing Institute of Technology
@@ -80,7 +85,7 @@ author:
       major: Control Science and Engineering
       started: 2016
       duration: (2016 - Present)
-      description: B.S., &#160 School of Automation, &#160 Beijing Institute of Technology, &#160 P. R. China, &#160 2016.
+      description: B.S., &#160 &#160 School of Automation, &#160 Beijing Institute of Technology, &#160 P. R. China, &#160 2016.
 
       
   projectsHistory:
