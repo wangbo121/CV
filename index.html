@@ -6,7 +6,6 @@ layout: default
         <div class="col-md-8">
             {% if site.author.Research_Interests %}
                 <h3 class="title">Research Interests</h3>
-                <ul class="timeline">
                     {% for work in site.author.Research_Interests %}
                         <li class="timeline-inverted">
                                 <div class="timeline-body">
@@ -16,7 +15,6 @@ layout: default
                                 </div>
                         </li>
                     {% endfor %}
-                </ul>
             {% endif %}	
 			
 			{% if site.author.educationHistory %}
